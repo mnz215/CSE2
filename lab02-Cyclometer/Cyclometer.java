@@ -16,7 +16,7 @@ public class Cyclometer{
     double wheelDiameter=27.0, PI=3.14158, feetPerMile=5280, inchesPerFoot=12, secondsPerMinute=60;
     double distanceTrip1, distanceTrip2, totalDistance;
     
-    System.out.println("Trip 1 took " +(countsTrip1/secondsPerMinute)+" minutes and had "+countsTrip1+" counts.");
+    System.out.println("Trip 1 took " +(secsTrip1/secondsPerMinute)+" minutes and had "+countsTrip1+" counts.");
     System.out.println("Trip 2 took "+(secsTrip2/secondsPerMinute)+" minutes and had "+countsTrip2+" counts.");
     distanceTrip1=countsTrip1*wheelDiameter*PI;
     distanceTrip1/=inchesPerFoot*feetPerMile;
